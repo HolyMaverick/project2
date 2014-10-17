@@ -15,16 +15,6 @@ public class search  {
     	this.list=list;
     }
     
-    public List getList(){
-    	return list;
-    }
-	public String getSearch_name(){
-		return search_name;
-	}
-	
-	public void setSearch_name(String search_name){
-		this.search_name=search_name;
-	}
 	public String execute() throws Exception{
 		int i=0,j=0,z;
         Class.forName("com.mysql.jdbc.Driver");  
