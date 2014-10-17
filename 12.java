@@ -10,12 +10,6 @@ public class search  {
 	private String search_name;
     private Connection conn=null;    
     private final String url="jdbc:mysql://localhost:3306/bookdb";  
-    private final String username="root";  
-    private  String[] book_name =new String[500];
-    private  String[] author_name =new String[500];
-    private  int[] book_authorid =new int[500];
-    private  int[] author_authorid =new int[500];
-    private  List <String> list=new ArrayList<String>();
     
     public void setList(){
     	this.list=list;
